@@ -1,0 +1,25 @@
+{
+  "name": "@troyv/glitch-text",
+  "version": "1.0.0",
+  "description": "Web component for displaying text with a glitch effect.",
+  "main": "glitch-text.js",
+  "scripts": {
+    "start": "npx http-server ."
+  },
+  "keywords": [
+    "Web Component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troyvassalotti/glitch-text.git"
+  },
+  "bugs": {
+    "url": "https://github.com/troyvassalotti/glitch-text/issues"
+  },
+  "author": {
+    "name": "Troy Vassalotti",
+    "url": "https://www.troyv.dev"
+  },
+  "homepage": "https://github.com/troyvassalotti/glitch-text#readme",
+  "license": "MIT"
+}

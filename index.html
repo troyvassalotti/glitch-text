@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>glitch-text Demo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      body {
+        font-family: system-ui;
+      }
+    </style>
+    <script type="module">
+      import GlitchText from "./glitch-text.js";
+    </script>
+  </head>
+  <body>
+    <main>
+      <h1>This headline has <glitch-text>glitch text</glitch-text> in it.</h1>
+      <p>
+        You can use <glitch-text>inline in a paragraph</glitch-text> if you want
+        to.
+      </p>
+      <p>
+        What about <a href="#"><glitch-text>in a link</glitch-text></a
+        >? Yeah, that too.
+      </p>
+      <p>
+        Glitch text can have
+        <glitch-text data-text="hello world">different text in it</glitch-text>.
+        That one uses the <code>data-text</code> attribute.
+      </p>
+    </main>
+  </body>
+</html>
